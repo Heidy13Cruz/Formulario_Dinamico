@@ -1,3 +1,14 @@
+main {
+  background-image: url(/Assets/Img/image.jpg);
+}
 
+.form {
+  width: 90%;
+  text-align: left;
+}
+.form h1 {
+  color: black;
+  text-shadow: -3px 7px 10px rgba(236, 75, 17, 0.79);
+}
 
 /*# sourceMappingURL=estilo.css.map */
