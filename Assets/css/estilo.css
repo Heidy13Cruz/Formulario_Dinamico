@@ -1,14 +1,37 @@
-main {
-  background-image: url(/Assets/Img/image.jpg);
+* {
+  margin: 0%;
+  padding: 0%;
 }
 
-.form {
-  width: 90%;
-  text-align: left;
+.main {
+  width: 70%;
 }
-.form h1 {
+.main__form {
+  width: 100%;
+  background: #53DFF1;
+  background: -moz-linear-gradient(top, #53DFF1 0%, #F6EE75 65%, #50C577 100%);
+  background: -webkit-linear-gradient(top, #53DFF1 0%, #F6EE75 65%, #50C577 100%);
+  background: linear-gradient(to bottom, #53DFF1 0%, #F6EE75 65%, #50C577 100%);
+  padding-top: 5%;
+  margin-left: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 10%;
+}
+.main__form h1 {
+  text-align: center;
+  font-family: "Righteous", cursive;
   color: black;
   text-shadow: -3px 7px 10px rgba(236, 75, 17, 0.79);
+  padding-bottom: 3%;
+}
+.main__form li {
+  list-style: none;
+  font-size: 120%;
+  padding: 2%;
+  margin: 3%;
 }
 
 /*# sourceMappingURL=estilo.css.map */
